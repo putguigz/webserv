@@ -16,7 +16,7 @@ It was really interesting to implement and discover a protocol that we use every
 Your system must have clang compiler to compile the binary.
 If you want to launch the website we implemented, you must have installed `php-cgi` on your machine.
 
-## Compiling the programm:
+## Compiling the program:
 ```make && ./webserv conf/webserv.conf```
 This will bind you on port 8080 and port 8181 on the 127.0.0.1 IP.
 dont forget to change line ```cgi .php path_of_your_php-cgi``` on conf webserv.conf
