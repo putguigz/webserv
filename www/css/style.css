@@ -16,7 +16,7 @@ div.content p {
 }
 
 div.methods {
-	margin: 12% 20%;
+	margin: 2% 20%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -24,6 +24,11 @@ div.methods {
 input[type=file] {
 	/* display: none; */
 	cursor: pointer;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
 }
 
 div .button {

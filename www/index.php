@@ -41,9 +41,9 @@ dont le serveur Web est implémenté.</p>
 			<a href="/php/delete.php" class="button">DELETE</a>
 		</div>
 	</div>
+	<footer>
+		<?php include('footer.php');
+		?>
+	</footer>
 </body>
-<footer>
-	<?php include('footer.php');
-	?>
-</footer>
 
