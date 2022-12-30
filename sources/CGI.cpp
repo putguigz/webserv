@@ -135,7 +135,7 @@ CGI &				CGI::operator=( CGI const & rhs )
 
 int		CGI::generate_env( void )
 {
-	if (_header["method"] == "GET" | _header["method"] == "POST")
+	if (_header["method"] == "GET" || _header["method"] == "POST")
 	{
 		int i = 0;
 		this->_env = new char*[_conversion.size() + 1];

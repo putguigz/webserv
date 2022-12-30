@@ -612,7 +612,6 @@ void		Request::ChunkedBodyProcessing(std::string body)
 {
 	size_t i = 0;
 	size_t ret = body.find("0\r\n\r\n");
-	int k = 0;
 	if (ret == static_cast<size_t>(-1))
 	{
 		_body = "";
@@ -642,7 +641,6 @@ void		Request::ChunkedBodyProcessing(std::string body)
 		}
 		i+=2;
 		_body += proceed_body;
-		k++;
 	}
 }
 
