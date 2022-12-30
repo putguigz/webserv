@@ -1,5 +1,7 @@
 # webserv
 
+<img src="./gif/webserv.gif">
+
 ## Presentation
 This project is about recoding a webserver (like nginx or apache) using the HTTP/1.1 protocol.
 
